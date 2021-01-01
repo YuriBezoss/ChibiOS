@@ -8,8 +8,8 @@ jobs:
       - checkout
 
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Greeting world.
+          command: echo Hello funny world.
 
       - run:
           name: Print the Current Time
